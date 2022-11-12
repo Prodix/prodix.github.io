@@ -1,0 +1,413 @@
+@media only screen and (max-width: 1185px) {
+    .sect-1{
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 39px;
+        align-items: normal;
+    }
+
+    h1{
+        font-size: 44px;
+        line-height: 55px;
+        max-width: 75%;
+    }
+
+    h2 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .sect-1-div p {
+        max-width: 73%;
+    }
+
+    img[src="images/cargo.png"]{
+        margin-top: 56px;
+        content: url("/images/cargotablet.png");
+        max-width: 690px;
+        width: 95%;
+    }
+
+    .green-box{
+        width: 23%;
+        height: 743px;
+    }
+
+    .sect-2 {
+        flex-direction: column;
+    
+        height: 524px;
+        max-width: 690px;
+        margin: 67px auto;
+        width: 94%;
+    
+        background: none;
+        box-shadow: none;
+
+        gap: 0;
+    }
+
+    .sect-2 article h3{
+        margin-top: 0;
+    }
+
+    .sect-2 article {
+        display: flex;
+        padding-top: 32px;
+        padding-left: 32px;
+
+        height: 164px;
+        max-width: 690px;
+        width: 100%;
+
+        margin-bottom: 16px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+        border-radius: 20px;
+    }
+
+    .sect-2-article-2, .sect-2-article-3{
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .sect-2 section{
+        margin-left: 124px;
+    }
+
+    .sect-3 div:last-child {
+        display: none;
+    }
+
+    .sect-3 article {
+        margin-right: 0;
+    }
+
+    .sect-3 div:first-child {
+        margin-right: 0;
+    }
+
+    .sect-4 {
+        height: 383px;
+    }
+
+    .green-why-us {
+        visibility: hidden;
+    }
+
+    .transparent-why-us {
+        visibility: hidden;
+    }
+
+    img[src="images/truck.png"] {
+        content: url("/images/tablet-truck.png");
+    }
+
+    .tablet-green-why-us {
+        visibility: visible;
+        right: 188px;
+    }
+
+    .tablet-transparent-why-us {
+        visibility: visible;
+        right: 95px;
+    }
+
+    .why-us {
+        width: 768px;
+    }
+
+    .why-us h2{
+        right: 320px;
+        top: 130px;
+    }
+
+    .sect-5 {
+        margin-left: 39px;
+        max-width: 768px;
+        margin: 72px auto;
+    }
+
+    .sect-5 article {
+        width: 516px;
+        margin-left: 39px;
+    }
+    
+    .sect-6-art-3 {
+        display: none;
+    }
+
+    .sect-6-art-sect {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sect-6 {
+        max-width: 687px;
+    }
+
+    .sect-6-art-1 img {
+        content: url("/images/tablet-our-works-1.png");
+    }
+
+    .sect-6-art-2 img {
+        content: url("/images/tablet-our-works-2.png");
+    }
+
+    .sect-6 article{
+        max-width: 690px;
+        width: 690px;
+        margin-bottom: 32px;
+    }
+
+    .sect-6 article p:not(.price) {
+        max-width: 510px;
+    }
+
+}
+
+@media only screen and (max-width: 695px) {
+    .sect-1{
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .sect-1-div{
+        width: 344px;
+    }
+
+    h1{
+        font-size: 28px;
+        line-height: 35px;
+
+        color: #FFFFFF;
+    }
+
+    h2{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 35px;
+
+        color: #363738;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 243px;
+    }
+
+    p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .sect-1 p{
+        visibility: hidden;
+        position: relative;
+        height: 62px;
+        margin-bottom: 60px;
+    }
+
+    .sect-1 p::after{
+        content: "Наши клиенты получают полный спектр услуг по работе с Китаем. Начиная с подбора производителя заканчивая доставкой товара до двери.";
+        position: absolute;
+        visibility: visible;
+        left: 0;
+        top: 0;
+        font-size: 15px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    a{
+        font-size: 15px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    img[src="images/cargo.png"]{
+        margin-top: 56px;
+        content: url("/images/cargomobile.png");
+        width: 100%;
+    }
+
+    .green-box{
+        box-sizing: none;
+        width: 100%;
+        height: 766px;
+    }
+
+    .sect-2 {
+        max-width: 345px;
+        width: 100%;
+
+        padding-top: 24px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+
+        height: auto;
+    }
+
+    .sect-2 article {
+        display: flex;
+        flex-direction: column;
+        
+        padding: 0;
+
+        height: auto;
+        max-width: 289px;
+        width: 100%;
+
+        background: none;
+        box-shadow: none;
+    }
+
+    .sect-2 section {
+        margin: 84px 0 0 0;
+    }
+
+    .gray-circle-1,  .gray-circle-2, .gray-circle-3{
+        width: 68px;
+        height: 68px;
+    }
+
+    .gray-circle-1 > *, .gray-circle-2 > *, .gray-circle-3 > *{
+        position: absolute;
+        margin: 0;
+        top: 15%;
+        left: 25%;
+        width: 36px;
+    }
+
+    .gray-circle-3 > * {
+        top: 20%;
+        left: 15%;
+        width: 48px;
+    }
+
+    .sect-3 div h2+p{
+        display: none;
+    }
+
+    .sect-3 svg {
+        display: none;
+    }
+
+    .sect-3 {
+        max-width: 345px;
+        margin-bottom: 64px;
+    }
+
+    .checkmark {
+        left: -16px;
+    }
+
+    .sect-3 article label {
+        margin-left: 33px;
+    }
+
+    .sect-3 article p {
+        margin-left: 65px;
+    }
+
+    .sect-4 h2 {
+        color: black;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 345px;
+        height: 70px;
+        margin: 0;
+    }
+
+    .sect-4 svg, .sect-4 img {
+        display: none;
+    }
+
+    .sect-4 {
+        width: 345px;
+        height: 70px;
+        margin: 0 auto;
+    }
+
+    .sect-5 {
+        max-width: 345px;
+    }
+
+    .sect-5 article{
+        margin: 0;
+    }
+
+    .sect-5 svg {
+        width: 28px;
+        height: auto;
+    }
+
+    .gray-circle-4 {
+        width: 52px;
+        height: 52px;
+    }
+
+    .svg-1{
+        left: 12px;
+        top: 9px;
+    }
+    
+    .svg-2{
+        left: 12px;
+        top: 9px;
+    }
+    
+    .svg-3{
+        left: 12px;
+        top: 11px;
+    }
+    
+    .svg-4{
+        left: 12px;
+        top: 10px;
+    }
+
+    .sect-5 article h3, .sect-5 article p {
+        left: 68px;
+    }
+
+    .sect-5 {
+        gap: 38px 176px;
+        margin-top: 48px;
+    }
+
+    .sect-5 article{
+        max-width: 345px;
+    }
+
+    .sect-6 {
+        max-width: 345px;
+    }
+
+    .sect-6-art-2{
+        display: none;
+    }
+
+    .sect-6-art-1 img {
+        content: url("/images/mobile-our-works-1.png");
+    }
+
+    .sect-6 article{
+        max-width: 345px;
+        width: 100%;
+    }
+
+    .sect-6 article *:not(img) {
+        margin-left: 24px;
+    }
+}
