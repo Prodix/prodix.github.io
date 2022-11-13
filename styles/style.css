@@ -783,3 +783,45 @@ a {
     margin-top: 24px;
 }
 
+.sect-9 {
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    width: 1185px;
+    height: 576px;
+}
+
+.sect-9 section {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 71px;
+}
+
+.sect-9 section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 275px;
+}
+
+
+.with-borders {
+    border-left: 1px solid #D7D7DD;
+    border-right: 1px solid #D7D7DD;
+}
+
+.with-borders {
+    border-left: 1px solid #D7D7DD;
+    border-right: 1px solid #D7D7DD;
+}
+
+.left-border {
+    border-left: 0;
+}
+
+input[name="mobile-rb"] {
+    display: none;
+}
+
