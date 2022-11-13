@@ -226,6 +226,7 @@
         display: flex;
         flex-direction: column;
         width: 687px;
+        height: auto;
     }
 
     .sect-9 section{
@@ -235,6 +236,50 @@
 
     .right-border {
         border-right: 0;
+    }
+
+    .sect-10 {
+        height: auto;
+        width: 687px;
+    }
+
+    .sect-10 section .alina, .sect-10 section .viktor {
+        display: none;
+    }
+
+    .sect-10 section article {
+        flex-direction: column;
+        align-items: normal;
+        width: 330px;
+        height: 290px;
+    }
+
+    .green-box-members {
+        left: 0;
+        height: 290px;
+        width: 30px;
+    }
+
+    .sect-10 img {
+        width: 100px;
+        height: 100px;
+        margin-top: 24px;
+        margin-left: 60px;
+        margin-bottom: 16px;
+    }
+
+    .sect-10 section article section{
+        margin-left: 60px;
+    }
+
+    .sect-10 p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .sect-10 svg {
+        margin-top: 30px;
+        margin-right: 20px;
     }
 
 }
@@ -689,4 +734,61 @@
         margin-right: 6px;
         margin-left: 6px;
     }
+
+    .sect-10 section .boris{
+        display: none;
+    }
+
+    .sect-10 {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+        max-width: 345px;
+        width: 95%;
+    }
+
+    .sect-10 > section {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .sect-10 section article section{
+        margin-left: 16px;
+    }
+
+    .sect-10 section article {
+        flex-direction: row;
+        align-items: center;
+        height: 156px;
+        max-width: 345px;
+        width: 95%;
+    }
+
+    .sect-10 img {
+        margin-right: 0;
+        margin-left: 36px;
+    }
+
+    .green-box-members {
+        width: 20px;
+        height: 156px;
+    }
+
+    .sect-10 h3 {
+        margin-bottom: 10px;
+    }
+
+    .sect-10 svg {
+        margin-top: 20px;
+    }
+
+    .sect-10 h2 {
+        margin: 0 0 32px 0;
+    }
+
+    .sect-9 {
+        margin-bottom: 64px;
+    }
+
 }
