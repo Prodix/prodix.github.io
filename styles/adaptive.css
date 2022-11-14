@@ -307,6 +307,14 @@
         margin-top: 64px;
     }
 
+    .sect-12 {
+        width: 690px;
+    }
+
+    .sect-12 img {
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 695px) {
@@ -851,6 +859,32 @@
 
     .sect-11 > section > section:last-child article p:first-child {
         width: 283px;
+    }
+
+    .sect-12 {
+        width: 345px;
+        height: 670px;
+    }
+
+    .sect-12 section{
+        width: 345px;
+        height: 670px;
+    }
+
+    .sect-12 textarea{
+        width: 313px;
+    }
+
+    .sect-12 section form {
+        margin-left: 16px;
+    }
+
+    .sect-12 label {
+        width: 313px;
+    }
+
+    .sect-12 input[type="submit"] {
+        width: 313px;
     }
 
 }

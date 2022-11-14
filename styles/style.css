@@ -893,8 +893,8 @@ input[name="mobile-rb"] {
     margin: 100px auto;
 
     width: 1185px;
-    height: 504px;
-    margin-bottom: 300px;
+    height: 618px;
+    margin-bottom: 140px;
 }
 
 .sect-11 h2 {
@@ -983,3 +983,112 @@ input[name="mobile-rb"] {
     border: 0;
 }
 
+.sect-12 {
+    width: 1185px;
+    height: 730px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+.sect-12 img {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+
+.sect-12 textarea{
+    resize: none;
+    background-image: url(/images/test10.svg);
+    outline: none;
+    width: 579px;
+    height: 243px;
+    line-height: 48px;
+    background-repeat: no-repeat;
+    border: none;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FFFFFF;
+
+    padding: 0;
+}
+
+.sect-12 textarea::placeholder{
+    color: #FFFFFF;
+}
+
+.sect-12 section {
+    width: 699px;
+    height: 730px;
+
+    background: #0B7572;
+}
+
+.sect-12 section form{
+    padding-top: 56px;
+    margin-left: 56px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    margin-bottom: 57px;
+}
+
+.sect-12 label {
+    padding-bottom: 19px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 579px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.sect-12 h2{
+    color: #FFFFFF;
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+
+.sect-12 input[type="submit"] {
+    width: 206px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #0B7572;
+}
+
+#tz {
+    display: none;
+}
+
+.tz::before {
+    margin-right: 16px;
+    content: url(/images/skrepka.svg);
+}
+
+#photo {
+    display: none;
+}
+
+.photo::before {
+    margin-right: 16px;
+    content: url(/images/add.svg);
+}
