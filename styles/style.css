@@ -456,6 +456,47 @@ a {
     border-bottom: 3px solid #FFCE50;
 }
 
+.radio-2 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.checkmark2 {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.checkmark2::before {
+    content: '';
+
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #E9E9EC;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.radio-2:checked + .checkmark2::before {
+    background: #0B7572;
+}
+
+.radio-2:checked + .checkmark2 {
+    border: 1px solid #0B7572;
+}
+
 .sect-6 article {
     max-width: 393px;
 
@@ -789,6 +830,10 @@ a {
     flex-direction: column;
     width: 1185px;
     height: 576px;
+}
+
+.sect-9 section:last-child {
+    display: none;
 }
 
 .sect-9 section {

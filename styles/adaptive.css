@@ -777,6 +777,11 @@
         row-gap: 48px;
     }
 
+    .sect-9 section:last-child {
+        display: flex;
+        margin-top: 40px;
+    }
+
     .sect-9 {
         width: 350px;
     }
