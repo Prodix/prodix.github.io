@@ -315,6 +315,24 @@
         display: none;
     }
 
+    .sect-13 {
+        width: 690px;
+    }
+
+    .sect-13 form{
+        padding-left: 30px;
+        width: 660px;
+    }
+
+    .sect-13 form > *{
+        width: 590px;
+    }
+
+    .sect-13 p{
+        width: 590px;
+    }
+
+
 }
 
 @media only screen and (max-width: 695px) {
@@ -885,6 +903,35 @@
 
     .sect-12 input[type="submit"] {
         width: 313px;
+    }
+
+    .sect-13 form {
+        background-color: #FFFFFF;
+        width: 345px;
+        padding: 0;
+    }
+
+    .sect-13 form > *{
+        background-color: #FFFFFF;
+        width: 345px;
+    }
+
+    .sect-13 {
+        width: 345px;
+        margin-top: 64px;
+    }
+
+    .sect-13 img {
+        width: 109px;
+        height: 86px;
+    }
+
+    .sect-13 input[type="submit"]{
+        display: none;
+    }
+
+    .sect-13 section {
+        gap: 8px;
     }
 
 }
