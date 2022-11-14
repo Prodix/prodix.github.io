@@ -332,6 +332,19 @@
         width: 590px;
     }
 
+    .sect-14 {
+        width: 690px;
+        margin: 80px auto;
+    }
+    
+    .sect-14 img {
+        content: url(/images/last-tablet.png);
+        width: 690px;
+    }
+    .sect-14 p {
+        max-width: 690px;
+    }
+
 
 }
 
@@ -932,6 +945,19 @@
 
     .sect-13 section {
         gap: 8px;
+    }
+
+    .sect-14 {
+        width: 345px;
+        margin: 80px auto;
+    }
+    
+    .sect-14 img {
+        content: url(/images/last-mobile.png);
+        width: 345px;
+    }
+    .sect-14 p {
+        max-width: 345px;
     }
 
 }

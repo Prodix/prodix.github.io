@@ -1161,3 +1161,42 @@ textarea {
     content: url(/images/file.svg);
     margin-right: 16px;
 }
+
+.sect-14 {
+    width: 1185px;
+    height: 807px;
+    margin: 100px auto;
+}
+
+.sect-14 img {
+    width: 1185px;
+}
+
+.sect-14 section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect-14 section div {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.sect-14 section div svg{
+    position: absolute;
+}
+
+.sect-14 p {
+    max-width: 848px;
+}
